@@ -1,0 +1,51 @@
+
+http://www.flexboxpatterns.com/home
+
+
+- flexbox ... flexの親子関係
+- flexアイテム ... flexコンテナの子要素
+- flex
+  - display: flex;
+- flex-direction
+  - flex-direction: row;
+  - flex-direction: row-reverse;
+  - flex-direction: column;
+  - flex-direction: column-reverse;
+- flex-wrap
+  - flex-wrap: nowarp;
+  - flex-wrap: warp;
+  - flex-wrap: wrap-reverse;
+- flex-flow
+  - flex-flow: (flex-direction) || (flex-wrap);
+- justify-content
+  - justify-content: flex-start;
+  - justify-content: flex-end;
+  - justify-content: center;
+  - justify-content: space-between;
+  - justify-content:  space-around;
+- align-items
+  - align-items: stretch;
+  - align-items: flex-start;
+  - align-items: flex-end;
+  - align-items: center;
+  - align-items: baseline;
+- align-content
+  - align-content: stretch;
+  - align-content: flex-start;
+  - align-content: flex-end;
+  - align-content: center;
+  - align-content: space-between;
+  - align-content: space-around;
+- flexアイテム
+  - order
+    - order: 0;
+  - flex-grow
+    - flex-grow: (number);
+  - flex-shrink
+    - flex-shrink: (number);
+  - flex-basis
+    - flex-basis: auto | (width);
+  - flex
+    - flex: none | auto | [(flex-grow), (flex-shrink), (flex-basis)];
+  - align-self
+    - align-self: auto | flex-start | flex-end | center | baseline | stretch;

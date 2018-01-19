@@ -1,0 +1,73 @@
+
+
+<div class="container">
+  <div class="sidebar container__childFlex">
+    <ul>
+      <li><a href="#">item 1</a></li>
+      <li><a href="#">item 2</a></li>
+      <li><a href="#">item 3</a></li>
+      <li><a href="#">item 4</a></li>
+      <li><a href="#">item 5</a></li>
+      <li><a href="#">曲を選ぶ丼。この曲で遊ぶ丼</a></li>
+    </ul>
+  </div>
+
+  <div class="content container__childFlex">
+    <h3>Lorem</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at mollis lectus, at suscipit lorem. Donec feugiat ullamcorper mattis. Proin in dignissim sapien. Aliquam vestibulum tristique ante, sed tempus ex placerat non. Fusce vel lorem dignissim, tempor magna ac, lacinia risus. Donec posuere tincidunt lobortis. Morbi sit amet mi lacinia, bibendum mi sit amet, pharetra nisi. Vestibulum molestie tristique odio, interdum mollis nunc laoreet in. In ligula libero, commodo vel cursus quis, lacinia id orci. Morbi in nisi sagittis neque condimentum venenatis. Donec dignissim posuere convallis. Pellentesque nec congue nulla, et dignissim est.
+
+        Morbi malesuada nibh at diam molestie luctus. Sed mollis luctus rutrum. Vestibulum maximus, leo nec aliquam dapibus, diam augue molestie lorem, eu commodo risus purus id velit. Donec ac malesuada elit, placerat tincidunt ex. Integer eget pulvinar erat, non laoreet enim. Mauris auctor ipsum a sapien rhoncus varius. Donec pretium dapibus justo, in feugiat tortor gravida ultrices. Ut ac felis tristique, euismod turpis in, scelerisque massa. Phasellus elementum non risus in euismod. Quisque varius magna id vestibulum varius. Aenean at ligula lacus. Aenean pellentesque nisl eget laoreet placerat.
+        
+        Quisque venenatis eget ex eget posuere. Sed euismod malesuada nulla a facilisis. In luctus dui eget metus placerat malesuada. Proin sit amet tincidunt tortor, vitae ornare elit. Vivamus vitae nibh nulla. Vivamus vel lorem tempor, sollicitudin quam sed, mattis diam. Fusce ut tincidunt ex, nec blandit erat. Maecenas pulvinar viverra porttitor. Quisque porta laoreet ex, quis congue massa.
+        
+        Nulla facilisi. Donec quis odio odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse in lacus sapien. Cras eget bibendum felis. Praesent eleifend, risus vitae faucibus vestibulum, elit eros aliquam odio, et molestie ligula metus nec neque. Morbi scelerisque dolor in accumsan sollicitudin.
+        
+        Curabitur nec lorem vulputate, tempus nunc at, faucibus dui. Phasellus ultricies justo non justo rhoncus, sit amet interdum neque laoreet. Vestibulum a ultricies arcu. Proin pharetra nisl et purus egestas blandit. Morbi venenatis laoreet sem porta sagittis. Aliquam erat volutpat. Donec fringilla arcu ut ipsum fermentum luctus. Maecenas eu leo nec felis gravida fermentum vitae a ligula. Sed pharetra ex odio, ac tincidunt ipsum porta a. Nam commodo quam in cursus dictum. Nullam pulvinar non libero ac eleifend. Praesent quis tempus sem. In imperdiet magna eget mauris elementum, ac viverra felis efficitur. Nunc erat turpis, dapibus nec enim ut, rutrum hendrerit odio. Pellentesque ultrices cursus dolor eget ullamcorper. Aliquam erat volutpat.</p>
+  </div>
+</div>
+
+<style>
+  ul, li, a {
+    padding: 0;
+    margin: 0;
+  }
+  li { list-style: none; }
+  a {
+    display: block;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 10px 8px;
+    text-align: center;
+    color: white;
+    background-color: #2a5396;
+    border-bottom: 1px solid #c9d7ef;
+  }
+
+  .container {
+    /* flex */
+    display: flex;
+    justify-content: center;
+
+    padding: 20px 10px;
+    /* border: 1px solid blueviolet; */
+  }
+
+  .container__childFlex {
+    /* flex */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar {
+    margin-right: 5%;
+    min-width: 160px;
+    max-width: 160px;
+    /* border: 1px solid orange; */
+  }
+
+  .content {
+    padding: 10px;
+    max-width: 600px;
+    /* border: 1px solid tomato; */
+  }
+</style>
